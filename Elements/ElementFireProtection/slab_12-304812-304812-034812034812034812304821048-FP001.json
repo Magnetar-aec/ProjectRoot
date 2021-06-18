@@ -17,6 +17,18 @@
         "name": "Fire Rating",
         "@value": "string",
         "value":"1HR"
+      },
+      {
+        "@type": "NamedVersion",
+        "name": "NamedVerion",
+        "@value": "string",
+        "value":"Version1"
+      },
+      {
+        "@type": "LifeSafetyFunction",
+        "name": "Life Safety Function",
+        "@value": "string",
+        "value":"Fire and Smoke"
       }
       
   ]

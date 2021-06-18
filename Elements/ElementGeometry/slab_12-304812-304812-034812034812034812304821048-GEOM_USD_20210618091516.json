@@ -1,7 +1,7 @@
 {
   "@context": {
   	"@base": "MyProject:Elements",
-    "@id":"ElementProjectIds:slab_12-304812-304812-034812034812034812304821048-PRID001",
+    "@id":"ElementGeometry:slab_12-304812-304812-034812034812034812304821048-GEOM_USD_20210618091516",
   	"@Type":"Slab"
  	 },
   
@@ -13,22 +13,24 @@
         "value":"slab_12-304812-304812-034812034812034812304821048_.json"
       },
       {
-        "@type": "UserID",
-        "name": "User Identifier",
+        "@type": "GeomFormat",
+        "name": "Geometry Format",
         "@value": "string",
-        "value":"0001"
+        "value":"USD"
+      },
+      {
+        "@type": "GeomNaviteID",
+        "name": "Geometry Native Identifier",
+        "@value": "string",
+        "value":"#########################################################"
       },
       {
         "@type": "NamedVersion",
         "name": "NamedVerion",
         "@value": "string",
         "value":"Version1"
-      },
-      {
-        "@type": "UserType",
-        "name": "User Type",
-        "@value": "string",
-        "value": "ElementTypes:Slabs:8InchSlab-342312341234124213421341234.json"
-    }
+      }
+     
+      
   ]
 }
