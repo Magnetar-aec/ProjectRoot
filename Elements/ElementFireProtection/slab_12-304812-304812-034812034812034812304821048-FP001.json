@@ -1,0 +1,23 @@
+{
+  "@context": {
+  	"@base": "MyProject:Elements",
+    "@id":"ElementFireProject:slab_12-304812-304812-034812034812034812304821048-FP001",
+  	"@Type":"Slab"
+ 	 },
+  
+  "EL:Slab": [
+    {
+        "@type": "ParentElement",
+        "name": "ParentElement",
+        "@value": "string",
+        "value":"slab_12-304812-304812-034812034812034812304821048_.json"
+      },
+      {
+        "@type": "FireRating",
+        "name": "Fire Rating",
+        "@value": "string",
+        "value":"1HR"
+      }
+      
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": {
+  	"@base": "MyProject:Elements",
+    "@id":"ElementProjectIds:slab_12-304812-304812-034812034812034812304821048-PRID001",
+  	"@Type":"Slab"
+ 	 },
+  
+  "EL:Slab": [
+    {
+        "@type": "ParentElement",
+        "name": "ParentElement",
+        "@value": "string",
+        "value":"slab_12-304812-304812-034812034812034812304821048_.json"
+      },
+      {
+        "@type": "UserID",
+        "name": "User Identifier",
+        "@value": "string",
+        "value":"0001"
+      },
+      {
+        "@type": "UserType",
+        "name": "User Type",
+        "@value": "String",
+        "value": "ElementTypes:Slabs:8InchSlab-342312341234124213421341234.json"
+    }
+  ]
+}
