@@ -25,6 +25,20 @@
         "value":"#########################################################"
       },
       {
+        "@type": "GeomPurpose",
+        "name": "Geometry Purpose",
+        "@value": "string",
+        "value":"Render Mesh"
+      },
+      {
+        "@type": "GeomUse",
+        "name": "Geometry Use",
+        "@value": "string",
+        "value": {
+          "@list":"[existance, appearance]"
+        }
+      },
+      {
         "@type": "NamedVersion",
         "name": "NamedVerion",
         "@value": "string",
