@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "PR": "./Project",
+    
+    "Pr:ProjectNumber": {
+      "@Type":"ProjectIdentifier"
+    },
+    "Pr:ProjectName": {
+      "@Type":"Name"
+    },
+    "Pr:ProjectType": {
+      "@Type": "ProjectType"
+    }
+    
+  },
+  
+    "@Type":"Project",
+    "Pr:Project": {
+      "Pr:ProjectName": "My Project Name",
+      "Pr:ProjectNameAlias": "My Project is Also Called",
+
+      "Pr:ProjectLocation": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.75",
+        "longitude": "73.98"
+         }, 	
+
+      "Pr:ProjectSite": {
+          "@type": "PostalAddress",
+          "addressLocality": "Irvine",
+          "addressRegion": "CA",
+          "postalCode":"92618",
+          "streetAddress": "123 Happy Lane"
+          },
+       
+          "PR:ProjectSiteGeometry": {
+            "@type": "SiteGeometry",
+            "SiteGeometry":{ "@id": "../ProjectSiteLocationGeometry.json" }
+          },
+            
+  
+      "Pr:ProjectBillingAddress": {
+          "@type": "PostalAddress",
+          "addressLocality": "Irvine",
+          "addressRegion": "CA",
+          "postalCode":"92618",
+          "streetAddress": "123 Happy Lane"
+          }
+
+    }
+
+  
+
+}
+
+
+
